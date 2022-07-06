@@ -1,0 +1,11 @@
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\bin\Debug\CS223LAB_App_1.exe.config
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\bin\Debug\CS223LAB_App_1.exe
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\bin\Debug\CS223LAB_App_1.pdb
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.csproj.AssemblyReference.cache
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.Form1.resources
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.Properties.Resources.resources
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.csproj.GenerateResource.cache
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.csproj.CoreCompileInputs.cache
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.exe
+C:\Users\Bisrat\Desktop\GIthub\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.pdb
