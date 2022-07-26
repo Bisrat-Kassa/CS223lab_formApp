@@ -15,6 +15,7 @@ namespace CS223LAB_App_1
         public int quantity { get; set; }
         public string date { get; set; }
         public int sku_num { get; set; }
+        public bool availability { get; set; }
         public void Save()
         {
             list.Add(this);

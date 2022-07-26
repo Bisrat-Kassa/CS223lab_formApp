@@ -20,3 +20,4 @@ C:\Users\Bisrat\Desktop\GIthub\CS223lab_formApp\CS223LAB_App_1\obj\Debug\CS223LA
 C:\Users\Bisrat\Desktop\GIthub\CS223lab_formApp\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.csproj.CoreCompileInputs.cache
 C:\Users\Bisrat\Desktop\GIthub\CS223lab_formApp\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.exe
 C:\Users\Bisrat\Desktop\GIthub\CS223lab_formApp\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.pdb
+C:\Users\Bisrat\Desktop\GIthub\CS223lab_formApp\CS223LAB_App_1\obj\Debug\CS223LAB_App_1.login.resources

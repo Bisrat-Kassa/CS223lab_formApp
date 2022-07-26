@@ -16,7 +16,8 @@ namespace CS223LAB_App_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new login());
+
         }
     }
 }

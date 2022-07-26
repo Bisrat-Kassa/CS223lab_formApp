@@ -1,4 +1,7 @@
-﻿namespace CS223LAB_App_1
+﻿using System;
+using System.Windows.Forms;
+
+namespace CS223LAB_App_1
 {
     partial class Form1
     {
@@ -45,6 +48,8 @@
             this.txt_price = new System.Windows.Forms.TextBox();
             this.dataview1 = new System.Windows.Forms.DataGridView();
             this.priceerror = new System.Windows.Forms.ErrorProvider(this.components);
+            this.is_checked = new System.Windows.Forms.CheckBox();
+            this.check_list = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataview1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.priceerror)).BeginInit();
             this.SuspendLayout();
@@ -85,11 +90,10 @@
             // 
             // txt_sku
             // 
-            this.txt_sku.Location = new System.Drawing.Point(585, 75);
+            this.txt_sku.Location = new System.Drawing.Point(687, 34);
             this.txt_sku.Name = "txt_sku";
             this.txt_sku.Size = new System.Drawing.Size(188, 26);
             this.txt_sku.TabIndex = 15;
-            this.txt_sku.TextChanged += new System.EventHandler(this.txt_sku_TextChanged);
             // 
             // label1
             // 
@@ -133,7 +137,6 @@
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(420, 26);
             this.txt_name.TabIndex = 20;
-            this.txt_name.TextChanged += new System.EventHandler(this.txt_name_TextChanged);
             // 
             // label3
             // 
@@ -152,7 +155,6 @@
             this.label2.Size = new System.Drawing.Size(44, 20);
             this.label2.TabIndex = 22;
             this.label2.Text = "Price";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txt_quant
             // 
@@ -177,17 +179,41 @@
             this.dataview1.RowTemplate.Height = 28;
             this.dataview1.Size = new System.Drawing.Size(632, 249);
             this.dataview1.TabIndex = 25;
-            this.dataview1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // priceerror
             // 
             this.priceerror.ContainerControl = this;
             // 
+            // is_checked
+            // 
+            this.is_checked.AutoSize = true;
+            this.is_checked.Location = new System.Drawing.Point(344, 174);
+            this.is_checked.Name = "is_checked";
+            this.is_checked.Size = new System.Drawing.Size(81, 24);
+            this.is_checked.TabIndex = 26;
+            this.is_checked.Text = "is avail";
+            this.is_checked.UseVisualStyleBackColor = true;
+            // 
+            // check_list
+            // 
+            this.check_list.FormattingEnabled = true;
+            this.check_list.Items.AddRange(new object[] {
+            "bisrat",
+            "asiya",
+            "salahadin"});
+            this.check_list.Location = new System.Drawing.Point(321, 34);
+            this.check_list.Name = "check_list";
+            this.check_list.Size = new System.Drawing.Size(120, 96);
+            this.check_list.TabIndex = 28;
+            this.check_list.SelectedIndexChanged += new System.EventHandler(this.checkedListBox2_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1135, 458);
+            this.ClientSize = new System.Drawing.Size(1135, 678);
+            this.Controls.Add(this.check_list);
+            this.Controls.Add(this.is_checked);
             this.Controls.Add(this.dataview1);
             this.Controls.Add(this.txt_price);
             this.Controls.Add(this.txt_quant);
@@ -205,6 +231,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataview1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.priceerror)).EndInit();
             this.ResumeLayout(false);
@@ -230,6 +257,13 @@
         private System.Windows.Forms.TextBox txt_price;
         private System.Windows.Forms.DataGridView dataview1;
         private System.Windows.Forms.ErrorProvider priceerror;
+        private EventHandler txt_name_TextChanged;
+        private EventHandler txt_sku_TextChanged;
+        private EventHandler label2_Click;
+        private DataGridViewCellEventHandler dataGridView1_CellContentClick;
+        private CheckBox is_checked;
+        private CheckedListBox check_list;
+        private EventHandler checkBox1_CheckedChanged;
     }
 }
 
