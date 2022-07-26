@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace CS223LAB_App_1
@@ -70,6 +71,11 @@ namespace CS223LAB_App_1
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_sku_TextChanged(object sender, EventArgs e)
         {
 
         }

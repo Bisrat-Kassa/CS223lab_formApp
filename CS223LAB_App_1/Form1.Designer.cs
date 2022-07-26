@@ -89,6 +89,7 @@
             this.txt_sku.Name = "txt_sku";
             this.txt_sku.Size = new System.Drawing.Size(188, 26);
             this.txt_sku.TabIndex = 15;
+            this.txt_sku.TextChanged += new System.EventHandler(this.txt_sku_TextChanged);
             // 
             // label1
             // 
@@ -132,6 +133,7 @@
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(420, 26);
             this.txt_name.TabIndex = 20;
+            this.txt_name.TextChanged += new System.EventHandler(this.txt_name_TextChanged);
             // 
             // label3
             // 
