@@ -43,6 +43,7 @@
             this.label1.Size = new System.Drawing.Size(80, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "username";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -89,6 +90,7 @@
             this.Controls.Add(this.label1);
             this.Name = "login";
             this.Text = "login";
+            this.Load += new System.EventHandler(this.login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

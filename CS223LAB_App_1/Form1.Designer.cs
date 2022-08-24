@@ -50,6 +50,7 @@ namespace CS223LAB_App_1
             this.priceerror = new System.Windows.Forms.ErrorProvider(this.components);
             this.is_checked = new System.Windows.Forms.CheckBox();
             this.check_list = new System.Windows.Forms.CheckedListBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataview1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.priceerror)).BeginInit();
             this.SuspendLayout();
@@ -207,11 +208,22 @@ namespace CS223LAB_App_1
             this.check_list.TabIndex = 28;
             this.check_list.SelectedIndexChanged += new System.EventHandler(this.checkedListBox2_SelectedIndexChanged);
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(491, 445);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(21, 20);
+            this.radioButton1.TabIndex = 29;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1135, 678);
+            this.ClientSize = new System.Drawing.Size(1146, 467);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.check_list);
             this.Controls.Add(this.is_checked);
             this.Controls.Add(this.dataview1);
@@ -230,7 +242,7 @@ namespace CS223LAB_App_1
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "q";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataview1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.priceerror)).EndInit();
@@ -264,6 +276,7 @@ namespace CS223LAB_App_1
         private CheckBox is_checked;
         private CheckedListBox check_list;
         private EventHandler checkBox1_CheckedChanged;
+        private RadioButton radioButton1;
     }
 }
 

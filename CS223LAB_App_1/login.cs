@@ -30,5 +30,15 @@ namespace CS223LAB_App_1
                 t.Show();
             }
         }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
